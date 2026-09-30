@@ -17,7 +17,7 @@ def start_alphabot():
 ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝    ╚═╝   
 """
     print(banner)
-    print("=" * 70)
+    print("=" * 65)
     print("Bot: Hey there! I'm AlphaBot, your terminal buddy.")
     print("Bot: Let's chat. Type 'help' if you want to see what I can do.")
     print("Bot: Type 'bye' or 'exit' whenever you want to leave.\n")
@@ -64,7 +64,7 @@ def start_alphabot():
             print("\nBot: Here are a few things you can ask me:")
             commands = [
                 "Greetings (e.g., 'hello', 'hey')",
-                "Share your name (e.g., 'My name is Ayush')",
+                "Share your name (e.g., 'My name is John')",
                 "Ask current time or date (e.g., 'what is the time', 'date')",
                 "Ask for a joke or fact (e.g., 'tell me a joke', 'fun fact')",
                 "About me (e.g., 'who are you', 'who created you')"
@@ -91,7 +91,7 @@ def start_alphabot():
             print("Bot: I'm AlphaBot! A rule-based terminal assistant built for the CodeAlpha internship.")
 
         elif "who made you" in text or "developer" in text or "creator" in text:
-            print("Bot: I was built in Python using pure logic, conditions, and loops without any external APIs!")
+            print("Bot: I was built in Python using pure logic, conditions, and loops. My creator is Nox-ayush.")
 
         # Well-being queries
         elif "how are you" in text:
