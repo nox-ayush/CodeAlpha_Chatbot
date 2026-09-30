@@ -35,6 +35,10 @@ AlphaBot is a lightweight command-line assistant engineered using structured con
 ## 🚀 Getting Started
 
 ### Prerequisites
-Make sure Python 3 is installed on your system:
-```bash
-python --version
+Make sure Python 3 is installed on your operating system.
+
+### Installation & Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/nox-ayush/CodeAlpha_Chatbot.git](https://github.com/nox-ayush/CodeAlpha_Chatbot.git)
